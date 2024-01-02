@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T16:04:02.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.16" etag="ude7V0m6QXd-HMLFQ-2N" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T16:59:41.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="7ri3rb0QX1ER9CQeRVQ9" version="22.1.16" type="github">
   <diagram name="Page-1" id="xG1w_BEsiNUN7U1nyh4B">
-    <mxGraphModel>
+    <mxGraphModel dx="1172" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="13hqANjlmZTeyRCX2zIn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-1" target="13hqANjlmZTeyRCX2zIn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-1" value="Sắp xếp theo arrival time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-2" target="13hqANjlmZTeyRCX2zIn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-2" value="List process with arrival time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-4" target="13hqANjlmZTeyRCX2zIn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-4" value="Khởi tạo thời điểm bắt đầu chương trình&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-6" target="13hqANjlmZTeyRCX2zIn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-6" value="So sánh thời gian hiện tại với arrival time" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="430" width="255" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-9" value="Nạp vào ready queue" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-11" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-14" target="13hqANjlmZTeyRCX2zIn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-14" value="ready_queue sẵn" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-15" target="13hqANjlmZTeyRCX2zIn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-15" value="Kiểm tra có tiến trình hay khồng&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="13hqANjlmZTeyRCX2zIn-17" target="13hqANjlmZTeyRCX2zIn-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690.3529411764707" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-17" value="Thực hiện lệnh &lt;br&gt;(xong thì xóa dòng lệnh đó trong ready_queue)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13hqANjlmZTeyRCX2zIn-21" value="nạp vào gantt chart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630.0029411764707" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
